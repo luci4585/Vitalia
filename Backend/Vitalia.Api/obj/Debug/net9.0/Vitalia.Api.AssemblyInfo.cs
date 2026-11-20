@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Vitalia.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16a0b318de278852425f4fda60d39e853994e535")]
 [assembly: System.Reflection.AssemblyProductAttribute("Vitalia.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Vitalia.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

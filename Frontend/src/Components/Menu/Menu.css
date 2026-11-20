@@ -1,0 +1,20 @@
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.menu-boton {
+  padding: 8px 14px;
+  border: 1px solid #2f7d6d;
+  background: #fff;
+  color: #2f7d6d;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.menu-boton.activo {
+  background: #2f7d6d;
+  color: #fff;
+}

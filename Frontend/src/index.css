@@ -1,0 +1,122 @@
+/* Estilos globales: se usan en toda la aplicación.
+   Los estilos de cada componente están en su propia carpeta. */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  background: #f4f7f6;
+  color: #1f2d2a;
+}
+
+.app {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+h1 {
+  margin: 0;
+}
+
+/* Botones */
+.boton {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  background: #2f7d6d;
+  color: #fff;
+  cursor: pointer;
+}
+
+.boton.secundario {
+  background: #e5ecea;
+  color: #1f2d2a;
+}
+
+.boton.peligro {
+  background: #c0392b;
+}
+
+/* Cabecera de cada sección: título + botón de alta */
+.seccion-cabecera {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.seccion-cabecera h1 {
+  font-size: 1.6rem;
+}
+
+/* Tablas */
+.tabla {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.tabla th,
+.tabla td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #e5ecea;
+}
+
+.tabla th {
+  background: #e5ecea;
+}
+
+.acciones {
+  display: flex;
+  gap: 6px;
+}
+
+/* Formularios: cada campo va dentro de un <label> */
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.formulario label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.9rem;
+}
+
+.formulario input,
+.formulario select {
+  padding: 8px;
+  border: 1px solid #b8c7c3;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.formulario-acciones {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+/* En pantallas chicas la tabla se desplaza en lugar de romper el diseño */
+@media (max-width: 720px) {
+  .tabla {
+    display: block;
+    overflow-x: auto;
+  }
+
+  .seccion-cabecera {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
