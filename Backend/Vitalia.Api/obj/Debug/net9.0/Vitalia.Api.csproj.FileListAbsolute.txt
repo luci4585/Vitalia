@@ -130,3 +130,4 @@ C:\Users\Oasis Desktop\source\repos\Vitalia\Backend\Vitalia.Api\obj\Debug\net9.0
 C:\Users\Oasis Desktop\source\repos\Vitalia\Backend\Vitalia.Api\obj\Debug\net9.0\Vitalia.Api.pdb
 C:\Users\Oasis Desktop\source\repos\Vitalia\Backend\Vitalia.Api\obj\Debug\net9.0\Vitalia.Api.genruntimeconfig.cache
 C:\Users\Oasis Desktop\source\repos\Vitalia\Backend\Vitalia.Api\obj\Debug\net9.0\ref\Vitalia.Api.dll
+C:\Users\Oasis Desktop\source\repos\Vitalia\Backend\Vitalia.Api\obj\Debug\net9.0\Vitalia.Api.sourcelink.json
